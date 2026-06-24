@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-purple: #06b6d4; /* Sleek Cyan Accent */
+  --color-brand-blue: #0ea5e9;   /* Sleek Sky Accent */
+  --color-brand-cyan: #22d3ee;   /* Sleek Cyan Light Accent */
+  --color-brand-pink: #14b8a6;   /* Sleek Teal Accent */
+}
+
+/* Custom styles for Sleek Interface theme */
+.shadow-sleek {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+}
+
+.shadow-sleek-lg {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);
+}
+
+.border-sleek {
+  border-color: rgba(6, 182, 212, 0.2);
+}
+
+
